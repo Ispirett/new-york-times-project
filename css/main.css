@@ -1,0 +1,16 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  border-bottom: 0.5px solid darkgray;
+}
+
+.header svg {
+  width: 14rem;
+  position: absolute;
+
+  top: 0.4px;
+  left: 33rem;
+}
