@@ -2,6 +2,10 @@
   font-family: arial, helvetica, sans-serif;
 }
 
+body {
+  padding: 3rem;
+}
+
 .header {
   background: white;
   position: fixed;
