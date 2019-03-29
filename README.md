@@ -2,7 +2,7 @@
 
 A replica of a new york times article
 
-## Created by Isaac @ispirett and @Matus
+## Created by Isaac and Armando
 
 ### Link To Live Site
 
