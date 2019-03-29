@@ -5,17 +5,20 @@
   --text-bold: 900;
 }
 
-* {
-  font-family: arial, helvetica, sans-serif;
-}
-
 body {
   padding: 2rem;
+  font-family: nyt-cheltenham, georgia, "times new roman", sans-serif !important;
 }
+
+iframe {
+  border: 0;
+}
+
 /* coommon*/
 .bold-h1 {
   font-family: none;
   font-weight: 900;
+  font-style: italic;
 }
 
 .text-black {
@@ -47,6 +50,7 @@ body {
 
 .hero {
 }
+
 .header-links {
   display: inline-flex;
   margin-top: 0.5rem;
@@ -111,7 +115,8 @@ section.hero {
 .item-one img {
   width: 100%;
 }
-.item-one figcaption {
+.item-one small {
+  display: block;
   text-align: right !important;
   font-size: 11px;
   color: var(--text-grey);
@@ -191,7 +196,7 @@ section.hero {
 }
 .boximg {
   display: inline;
-  width: 59rem;
+  width: 82%;
   margin: auto;
 }
 p.unhero {
@@ -231,14 +236,14 @@ p.unherosec small {
   font-size: 14.5px;
 }
 
-section p {
+.body-paragraph p {
   width: 37rem;
   margin: auto;
 }
 
 .header-btn button {
   margin-top: 3px;
-  margin-left: 4px;
+  margin-left: 5px;
   background-color: #6288a5;
   color: white;
   font-variant-caps: all-small-caps;
@@ -320,6 +325,37 @@ section p {
   font-weight: 500;
 }
 
+.article-button {
+  background-color: rgb(98, 136, 165);
+  color: white;
+  position: relative;
+  right: 12em;
+  top: 2em;
+  display: block;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  width: 22%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(50, 104, 145);
+  border-image: initial;
+  border-radius: 3px;
+  padding: 5px 0px;
+  transition: background-color 0.6s ease 0s;
+}
+
+.article-button-links {
+  position: relative !important;
+
+  top: -1em;
+}
+
 .body-paragraph {
   text-align: center;
 }
@@ -384,7 +420,7 @@ section p {
 
 .documentbottom {
   width: 80%;
-  margin: 0 auto;
+  margin: -1.6rem auto;
 }
 
 /* footer */
@@ -434,6 +470,11 @@ section p {
   font-size: 14px;
 }
 
+.footer-section h3 {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
 .footer-list li {
   list-style: none;
   line-height: 1.5rem;
@@ -452,7 +493,7 @@ section p {
 
 .footer-sidebar {
   margin-top: 18px;
-  border-left: 1px solid rgb(206, 206, 206);
+  border-left: 1px solid rgb(109, 103, 103);
 }
 
 .footer-sidebar ul {
@@ -460,10 +501,11 @@ section p {
   padding: 1rem;
 }
 
-.footer-sidebar ul h3 {
+.footer-sidebar h3 {
   font-size: 14px;
+  padding-left: 10px;
 
-  margin-top: -14px;
+  margin-top: -5px;
 }
 
 .footer-sidebar ul li {
@@ -491,7 +533,7 @@ section p {
   text-decoration: none;
   font-weight: var(--text-bold);
   color: var(--text-black);
-  font-size: 16px !important;
+  font-size: 20px !important;
 }
 .footer-sidebar ul:nth-child(1) li a:hover {
   text-decoration: underline;
@@ -506,7 +548,8 @@ section p {
 
 .footer-sidebar ul:nth-child(2) li a {
   text-decoration: none;
-  color: var(--text-grey);
+  color: var(--text-black);
+  font-size: 17px !important;
 }
 
 .footer-sidebar ul:nth-child(2) li a:hover {
@@ -514,7 +557,6 @@ section p {
 }
 
 .footer-sidebar ul:nth-child(3) {
-  border-top: 1px solid rgb(206, 206, 206);
   padding-top: 10px;
 }
 
@@ -524,6 +566,20 @@ section p {
   font-size: var(--text-small);
 }
 .footer-sidebar ul:nth-child(3) li a:hover {
+  text-decoration: underline;
+}
+
+.footer-sidebar ul:nth-child(4) {
+  border-top: 1px solid rgb(206, 206, 206);
+  padding-top: 10px;
+}
+
+.footer-sidebar ul:nth-child(4) li a {
+  text-decoration: none;
+  color: var(--text-grey);
+  font-size: var(--text-small);
+}
+.footer-sidebar ul:nth-child(4) li a:hover {
   text-decoration: underline;
 }
 
