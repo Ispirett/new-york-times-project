@@ -6,4 +6,4 @@ A replica of a new york times article
 
 ### Link To Live Site
 
-https://github.com/Ispirett/new-york-times-project/index.html
+https://ispirett.github.io/new-york-times-project/
